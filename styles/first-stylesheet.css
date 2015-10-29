@@ -13,3 +13,6 @@ article {
     background-color: greenyellow;
     border-radius:10px;
 }
+article:hover{
+    background-color:yellowgreen;
+}
