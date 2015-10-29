@@ -1,4 +1,18 @@
-﻿body {
+﻿nav ul {
+    background-color: yellow;
+}
+
+header::first-line {
+    font-variant: small-caps;
+}
+
+nav li {
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: yellowgreen;
 }
@@ -6,12 +20,14 @@
 a {
     font-size: 1.25rem;
 }
-a:hover{text-decoration:none;
-        font-weight:bold;
-}
+
+    a:hover {
+        text-decoration: none;
+        font-weight: bold;
+    }
 
 header {
-    background-color: burlywood;
+    background-color: yellow;
 }
 
 h3 {
@@ -27,3 +43,7 @@ article {
     article:hover {
         background-color: yellowgreen;
     }
+
+p::first-letter {
+    font-size: 1.5rem;
+}
