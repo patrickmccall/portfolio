@@ -3,16 +3,27 @@
     background-color: yellowgreen;
 }
 
+a {
+    font-size: 1.25rem;
+}
+a:hover{text-decoration:none;
+        font-weight:bold;
+}
+
 header {
     background-color: burlywood;
 }
-h3{background-color:blue;
-   color:white;
+
+h3 {
+    background-color: blue;
+    color: white;
 }
+
 article {
     background-color: greenyellow;
-    border-radius:10px;
+    border-radius: 10px;
 }
-article:hover{
-    background-color:yellowgreen;
-}
+
+    article:hover {
+        background-color: yellowgreen;
+    }
