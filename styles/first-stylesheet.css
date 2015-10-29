@@ -33,6 +33,7 @@ header {
 h3 {
     background-color: blue;
     color: white;
+    font-weight: bold;
 }
 
 article {
