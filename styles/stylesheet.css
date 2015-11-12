@@ -1,28 +1,29 @@
-﻿* {
+﻿body {
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: lightgrey;
 }
 
-nav ul {
-    background-color: yellow;
+
+header {
+    padding:.5rem;
+    height:125px;
+    background-color: darkgrey;
+    border-radius:5px;
 }
 
-header::first-line {
-    font-variant: small-caps;
-}
+    nav a {
+        display: block;
+        width: 50%;
+        float: left;
+        font-size: 1.75rem;
+        text-decoration: none;
+        margin-bottom: 1em;
+    }
 
-nav li {
-    display: block;
-    width: 50%;
-    float: left;
-}
 
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: yellowgreen;
-}
 
 a {
-    font-size: 1.25rem;
+    font-size: .75rem;
 }
 
     a:hover {
@@ -30,25 +31,33 @@ a {
         font-weight: bold;
     }
 
-header {
-    background-color: yellow;
-}
+
 
 h3 {
-    background-color: blue;
+    background-color: lightslategray;
     color: white;
     font-weight: bold;
+    padding:.5rem;
+    border-radius:5px;
 }
 
 article {
-    background-color: greenyellow;
+    clear:both;
     border-radius: 10px;
+}
+article p{
+        float:right;
 }
 
     article:hover {
-        background-color: yellowgreen;
+        background-color: lightgrey;
     }
 
 p::first-letter {
     font-size: 1.5rem;
+}
+
+footer nav a{
+    width:20%;
+    float:left;
 }
